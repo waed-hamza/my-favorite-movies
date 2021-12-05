@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 30px;
+}
+
+#form-container div {
+    display: flex;
+    margin-right: 20px;
+}
+
+input {
+    width: 250px;
+    border-radius: 6px;
+    border: solid 0.5px rgba(0, 0, 0, 0.219);
+    padding: 5px;
+}
+
+input:focus {
+    outline-color: rgba(5, 218, 218, 0.849);
+}
+
+label {
+    align-self: center;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#add-movie {
+    width: 80px;
+    border-radius: 6px;
+    border: solid 0.5px rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+    outline: none;
+}
+
+#add-movie:hover {
+    background-color: #f63030;
+    border-color: #f63030;
+    color: white;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#table-container {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+}
+
+table, th, td {
+    border: solid 0.5px rgba(0, 0, 0, 0.219);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: #EFEFEF;
+}
+
+td {
+    text-align: center;
+}
+
+#delete {
+    width: 80%;
+    height: 30px;
+    border-radius: 6px;
+    border: solid 0.5px #f63030;
+    background-color: #f63030;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#delete:hover {
+    border: solid 0.5px rgba(0, 0, 0, 0.541);
+    background-color: #EFEFEF;
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+}
