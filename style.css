@@ -83,7 +83,7 @@ td {
     text-align: center;
 }
 
-#delete {
+.delete {
     width: 80%;
     height: 30px;
     border-radius: 6px;
@@ -94,7 +94,7 @@ td {
     outline: none;
 }
 
-#delete:hover {
+.delete:hover {
     border: solid 0.5px rgba(0, 0, 0, 0.541);
     background-color: #EFEFEF;
     color: black;
