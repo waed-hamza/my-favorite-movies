@@ -101,3 +101,30 @@ td {
     transition: all;
     transition-duration: 0.5s;
 }
+
+#sort-div {
+    display: inline-block;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: block;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.arrow:hover {
+    border-color: rgba(0, 0, 0, 0.534);
+    cursor: pointer;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
