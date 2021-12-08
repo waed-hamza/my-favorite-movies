@@ -76,4 +76,4 @@ Visit [My favorite movies app][1], and review it.
 
 <br/>
 
-[1]:https://waed-hamza.github.io/guess-the-password/
+[1]:https://waed-hamza.github.io/my-favorite-movies/
